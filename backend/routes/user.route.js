@@ -28,7 +28,8 @@ router.post('/Register',(req,res)=>{
             }else{
 
             res.json({
-                message:'email is not avilable'
+                
+                message:'email is not avilable !'
             })   
             }
         }
