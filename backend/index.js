@@ -5,7 +5,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 
 const mongoose = require('mongoose')
-mongoose.connect("mongodb://vana:6df1oMi0BMK8zpZh@cluster0-shard-00-00.iczji.mongodb.net:27017,cluster0-shard-00-01.iczji.mongodb.net:27017,cluster0-shard-00-02.iczji.mongodb.net:27017/dbUser2?ssl=true&replicaSet=atlas-pcxqif-shard-0&authSource=admin&retryWrites=true&w=majority",{ useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb://y database name:6df1oMi0BMK8zpZh@cluster0-shard-00-00.iczji.mongodb.net:27017,cluster0-shard-00-01.iczji.mongodb.net:27017,cluster0-shard-00-02.iczji.mongodb.net:27017/y database name?ssl=true&replicaSet=atlas-pcxqif-shard-0&authSource=admin&retryWrites=true&w=majority",{ useNewUrlParser: true, useUnifiedTopology: true })
     .then(()=>console.log('database conected'))
     .catch(err =>{console.log(err)});
 
